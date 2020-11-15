@@ -4,27 +4,22 @@ import './App.css';
 import { RoutePages } from './Routes/Index';
 
 function App() {
-  return (
-    <div className="App">
-      <Switch>
-        <Route
-          path="/"
-          render={(props) => {
-            return (
-              <RoutePages {...props} />
-            );
-          }}
-          />
-      </Switch>
+return (
+  <div className="App">
+    <Switch>
+ <Route
+        path="/"
+        render={(props) => {
+          return (
+            <RoutePages {...props} />
+          );
+        }}
+        />
+    </Switch>
       <Link
-          to="/home"
-        >
-         Home
-        </Link>
-        <Link
-          to="/program"
-        >
-         Student
+        to="/program"
+      >
+        Student
         </Link>
    </div>
   );
