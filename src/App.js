@@ -7,11 +7,10 @@ function App() {
 return (
   <div className="App">
     <Switch>
- <Route
-        path="/"
-        render={(props) => {
+      <Route
+        path="/" render={() => {
           return (
-            <RoutePages {...props} />
+            <RoutePages />
           );
         }}
         />
