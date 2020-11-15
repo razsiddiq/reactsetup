@@ -1,4 +1,4 @@
-import { fromJS, Map, List } from 'immutable';
+import { fromJS } from 'immutable';
 import * as actions from './action';
 const initialState = fromJS({
   isLoading: false,
